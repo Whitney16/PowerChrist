@@ -1,0 +1,421 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body{
+
+	font-family: 'Handlee', cursive;
+	font-size: 15px;
+	background-color: #F2F2F2;
+}
+
+a{
+	color: #F2F2F2;
+	font-weight: bold;
+}
+a:hover{
+	color: #346377;
+}
+.texto-centrado{
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+	text-align: justify;
+	
+}
+.logo{
+	padding-top: 10px;
+	width:270px;
+    height:300px;
+   
+    
+
+}
+
+.quitar-float{
+	float: none;
+
+}
+.espacio-arriba{
+	margin-top: 5%;
+}
+#principal{
+	width: 40%;
+	float: none;
+	margin: 0 auto;
+	margin-top: 5%;
+	text-align: center;
+}
+#elemento_dos{
+	margin-top: 10%;
+}
+
+.Handlee{
+	font-family: 'Handlee', cursive;
+	font-size: 40px;
+	color: #FF0000;
+}
+.Baloo{
+	font-family: 'Baloo', cursive;
+	font-size: 80px;
+	color: #0388A6;
+}
+.titulo1{
+	color: #0388A6;
+	font-size: 60px;
+	
+  
+}
+.p1{
+	color: #0388A6;
+	font-family: Baloo;
+}
+.centrado{
+	text-align: center;
+	font-size: 15px;
+	color: #F2F2F2;
+
+}
+
+.espacio-derecha{
+
+	margin-right: 1em;
+}
+.no-lista li{
+	list-style-type: none;
+}
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+.col-nav{
+	background-color: #0388A6;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+a:hover{
+	color: #FF0000;
+	text-decoration: none; 
+}
+.padding-largo{
+	padding: 10px 15px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	position: all;
+}
+.espacio{
+	margin-right: 1em;
+}
+.texto-left{
+	text-justify:auto;
+	padding: 20px 10px;
+}
+.col-md-5 {
+ 
+  font-size: 22px;
+}
+
+.texto{
+	text-align: justify;
+	margin: 50px;
+	padding: 10px;
+}
+
+.derechos{
+	text-align: center;
+	color: #346377;
+	font-size: 15px;
+}
+
+.imagen2{
+	float: right;
+	margin-top: 4px;
+	padding-right: 50px;
+	margin-right: 1em;
+	width:500px;
+    height:280px;
+    border-radius:70px;
+    margin-bottom: 22px;
+    resize: 12px;
+}
+
+.Handlee-fuente{
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.imagen3 {
+	width:240px;
+	height: 280px;
+}
+.imagenes:hover {
+	-webkit-transform:scale(1);transform:scale(1.1);
+}
+
+.imagenes {
+	overflow:hidden;
+}
+#ver{
+
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+.no{
+	color: transparent;
+
+}
+.no:hover{
+	color: transparent;
+}
+#ver:hover{
+	color: #0388A6;
+}
+.social {
+	position: fixed; 
+	left:  0; 
+	top: 280px; 
+	z-index: 2000;
+
+ }
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 20px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+ 
+	.social ul li .icon-facebook2 {
+		background:#3b5998;
+	} 
+	.social ul li .icon-instagram {
+		background: #D94A7E;
+	}
+	.social ul li .icon-envelop {
+		background: #0388A6;
+	}
+ 
+	.social ul li a:hover {
+		background-color: #000 ;
+		padding: 10px 35px; 
+	}
+.separar{
+
+		margin-right: 1em;
+	}
+.color-azul:hover{
+	color: #0388A6;
+	text-decoration: none; 
+}
+
+.negro{
+	color: black;
+}
+.gallery
+{
+    display: inline-block;
+    margin-top: 30px;
+    margin:100px;
+}
+.img-responsive{
+
+	margin-right: 21em;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+//*Carousel*//
+
+.carousel {
+  max-width: 500%;
+  height: auto;
+}
+
+button {
+  background: 
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.over-visible {
+  overflow: inherit;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background: black;
+}
+
+.container {
+  max-width: 540px;
+  padding: 25px 10px;
+  margin: 0 auto;
+}
+
+.synch-carousels {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.descripcion{
+	font-size: 22px;
+	color: black;
+	font: bold;
+	text-align: left;
+}
+.ya{
+	
+	color: #000;
+	font-family: handlee;
+
+}
+
+.contacto{
+	color: #0388A6;
+}  
+.retraso-1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay:1s;
+	animation-delay: 1s;
+}
+.centrar{
+	text-align: center;
+}
+
+/* CSS para la animación y localización de los DIV de cookies */
+ 
+@keyframes desaparecer
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%		{bottom: -50px;}
+}
+ 
+@-webkit-keyframes desaparecer /* Safari and Chrome */
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%		{bottom: -50px;}
+}
+ 
+@keyframes aparecer
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%		{bottom: -38px;}
+}
+ 
+@-webkit-keyframes aparecer /* Safari and Chrome */
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%		{bottom: -38px;}
+}
+#cookiesms1:target {
+    display: none;
+}
+.cookiesms{	
+	width:100%;
+	height:71px;
+	margin:0 auto;
+	padding-left:1%;
+        padding-top:5px;
+        font-size: 1.2em;
+	clear:both;
+        font-weight: strong;
+color: #fff;
+bottom:0px;
+position:fixed;
+left: 0px;
+background-color: #0388A6;
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+transition: bottom 1s;
+-webkit-transition:bottom 1s; /* Safari */
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+z-index:999999999;
+}
+ 
+.cookiesms:hover{
+bottom:0px;
+}
+.cookies2{
+background-color: #0388A6;
+display:inline;
+font-weight: bold;
+color: #fff;
+opacity:0.95;
+filter:alpha(opacity=95);
+position:absolute; 
+left:1%; 
+top:-30px;
+font-size:15px;
+height:30px;
+padding-left:25px;
+padding-right:25px;
+-webkit-border-top-right-radius: 15px;
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topright: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+}
+ 
+ .boton{
+ 	border-radius: 5px;
+ 	color: #000;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ }
+ .boton:hover{
+ 	color: #0388A6;
+ }
+/* Fin del CSS para cookies */
+ 
+ .negro{
+ 	color: #000;
+ }
+
+.negros{
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
